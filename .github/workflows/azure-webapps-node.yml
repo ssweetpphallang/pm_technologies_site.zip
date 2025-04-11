@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PM Technologies</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 20px;
+    }
+
+    .btn {
+      background: #00b894;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00b894;
+      margin-bottom: 10px;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services ul li {
+      background: #fff;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 5px solid #00b894;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    input[type="email"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    input[type="submit"] {
+      background: #00b894;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    input[type="submit"]:hover {
+      background: #019170;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .btn {
+        margin-top: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PM Technologies</h1>
+    <p>Your Trusted Tech Partner in Vosloorus</p>
+    <a href="#contact" class="btn">Contact Us</a>
+    <a href="#services" class="btn">Get a Quote</a>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>PM Technologies is your go-to destination in Vosloorus for reliable laptop and computer repairs, as well as top-quality new and second-hand laptops. Whether you’re dealing with a cracked screen, software issues, or just need an upgrade — we’ve got you covered.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>🔧 Laptop & Computer Repairs</li>
+      <li>💻 Sales of New & Second-Hand Laptops</li>
+      <li>🔄 Software Updates & System Servicing</li>
+      <li>⚡ Tech Product Specials</li>
+      <li>📱 Fast Mobile Charging Accessories</li>
+    </ul>
+  </section>
+
+  <section id="why">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>✅ Trusted by the Vosloorus community</li>
+      <li>⏱️ Fast, reliable service</li>
+      <li>💡 Expert technicians</li>
+      <li>🔋 High-quality accessories, including fast chargers</li>
+      <li>💵 Affordable pricing</li>
+    </ul>
+  </section>
+
+  <section id="vision">
+    <h2>Vision & Mission</h2>
+    <p><strong>Our Vision</strong>: To become a leading tech hub in Vosloorus and beyond.</p>
+    <p><strong>Our Mission</strong>: Empower the community through affordable and reliable tech solutions while creating job opportunities for young talent.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:ssweetpphallang@gmail.com">ssweetpphallang@gmail.com</a></p>
+    <p>Cell: 065 890 7922</p>
+    <p>Location: Vosloorus, South Africa</p>
+
+    <h3>Request a Consultation</h3>
+    <form action="mailto:ssweetpphallang@gmail.com" method="POST" enctype="text/plain">
+      <label for="userEmail">Your Email:</label>
+      <input type="email" id="userEmail" name="Email" required>
+
+      <label for="message">Reason for Consultation:</label>
+      <textarea id="message" name="Message" rows="5" required></textarea>
+
+      <input type="submit" value="Send Request">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 PM Technologies. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
